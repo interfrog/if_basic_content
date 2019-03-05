@@ -1,0 +1,36 @@
+{
+    "name": "interfrog/if_basic_content",
+    "type": "typo3-cms-extension",
+    "version": "2.0.1",
+    "description": "TYPO3 extension with content for IfPage Basic",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "ifPage",
+        "Theme",
+        "Content",
+        "Basic"
+    ],
+    "homepage": "https://www.ifpage.de",
+    "authors": [{
+        "name": "Interfrog Produktion GmbH",
+        "role": "Developer",
+        "homepage": "http://interfrog.de"
+    }],
+    "license": [
+        "GPL-2.0+"
+    ],
+    "require": {
+        "typo3/cms-core": "8.*"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/Web"
+        }
+    }
+}
